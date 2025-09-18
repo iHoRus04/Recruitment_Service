@@ -1,0 +1,265 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "name": "Hồ Chí Minh"
+    },
+    {
+      "id": 3,
+      "name": "Đà Nẵng"
+    },
+    {
+      "id": 4,
+      "name": "Hải Phòng"
+    },
+    {
+      "id": 5,
+      "name": "Cần Thơ"
+    },
+    {
+      "id": 6,
+      "name": "Huế"
+    },
+    {
+      "id": 7,
+      "name": "Nha Trang"
+    },
+    {
+      "id": 8,
+      "name": "Quy Nhơn"
+    },
+    {
+      "id": 9,
+      "name": "Vinh"
+    },
+    {
+      "id": 10,
+      "name": "Biên Hòa"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    },
+    {
+      "id": 5,
+      "name": "NodeJS"
+    },
+    {
+      "id": 6,
+      "name": "Express"
+    },
+    {
+      "id": 7,
+      "name": "MongoDB"
+    },
+    {
+      "id": 8,
+      "name": "Java"
+    },
+    {
+      "id": 9,
+      "name": "Spring Boot"
+    },
+    {
+      "id": 10,
+      "name": "MySQL"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "idCompany": "1",
+      "name": "Frontend Developer",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS"
+      ],
+      "salary": "15-20 triệu",
+      "description": "Phát triển giao diện web cho hệ thống thương mại điện tử.",
+      "status": true,
+      "city": [
+        "Hà Nội"
+      ],
+      "createAt": "2023-04-29 21:22:17",
+      "expiryAt": "2024-04-30 14:12:25"
+    },
+    {
+      "id": 2,
+      "idCompany": "2",
+      "name": "Backend Developer",
+      "tags": [
+        "NodeJS",
+        "Express",
+        "MongoDB"
+      ],
+      "salary": "18-25 triệu",
+      "description": "Xây dựng API và hệ thống backend cho ứng dụng web.",
+      "status": true,
+      "city": [
+        "Hồ Chí Minh"
+      ],
+      "createAt": "2023-05-01 10:00:00",
+      "expiryAt": "2024-05-01 10:00:00"
+    },
+    {
+      "id": 3,
+      "idCompany": "1",
+      "name": "Java Developer",
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "salary": "20-30 triệu",
+      "description": "Phát triển dịch vụ backend bằng Java Spring Boot.",
+      "status": false,
+      "city": [
+        "Đà Nẵng"
+      ],
+      "createAt": "2023-05-02 08:30:00",
+      "expiryAt": "2024-05-02 08:30:00"
+    },
+    {
+      "idCompany": "3",
+      "name": "Fullstack Devoloper",
+      "salary": "50 Triệu",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ReactJS",
+        "NodeJS",
+        "Express",
+        "MongoDB",
+        "Java"
+      ],
+      "city": [
+        "Đà Nẵng",
+        "Hồ Chí Minh",
+        "Hà Nội",
+        "Huế"
+      ],
+      "description": "abc",
+      "createAt": "2025-09-17 00:00:00",
+      "expiryAt": "2025-09-30 00:00:00",
+      "status": true,
+      "id": 4
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "companyName": "SunShine",
+      "phone": "0123456789",
+      "email": "hr@sun.com",
+      "password": "123456",
+      "address": "Hà Nội",
+      "workingTime": "8h - 17h",
+      "website": "https://sun-asterisk.vn",
+      "quantityPeople": 500,
+      "description": "Công ty phần mềm hàng đầu Việt Nam",
+      "detail": "Sun* chuyên về phát triển phần mềm, tư vấn giải pháp CNTT, hợp tác với nhiều tập đoàn quốc tế."
+    },
+    {
+      "id": 2,
+      "companyName": "FPT Software",
+      "phone": "0987654321",
+      "email": "hr@fpt.com",
+      "password": "123456",
+      "address": "Hồ Chí Minh",
+      "workingTime": "8h - 17h30",
+      "website": "https://fptsoftware.com",
+      "quantityPeople": 1000,
+      "description": "Công ty công nghệ lớn nhất Việt Nam",
+      "detail": "FPT Software cung cấp dịch vụ CNTT cho nhiều khách hàng toàn cầu."
+    },
+    {
+      "companyName": "ABC",
+      "email": "abc@gmail.com",
+      "phone": "0987456222",
+      "password": "123456",
+      "confirm": "123456",
+      "id": 3,
+      "address": "abc ,vn",
+      "website": "https:abc.com",
+      "quantityPeople": "100",
+      "workingTime": "8h - 17h",
+      "description": "Công ty web",
+      "detail": "abc"
+    }
+  ],
+  "cv": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 1,
+      "fullName": "Nguyễn Văn A",
+      "phone": "0901234567",
+      "email": "a.nguyen@example.com",
+      "description": "Tôi có 2 năm kinh nghiệm ReactJS.",
+      "linkProject": "https://github.com/nguyenvana",
+      "city": "Hà Nội",
+      "statusRead": true,
+      "createAt": "2023-05-03 09:00:00"
+    },
+    {
+      "id": 2,
+      "idCompany": 2,
+      "idJob": 2,
+      "fullName": "Trần Thị B",
+      "phone": "0912345678",
+      "email": "b.tran@example.com",
+      "description": "Tôi có 3 năm kinh nghiệm NodeJS và MongoDB.",
+      "linkProject": "https://github.com/tranthib",
+      "city": "Hồ Chí Minh",
+      "statusRead": true,
+      "createAt": "2023-05-04 14:30:00"
+    },
+    {
+      "idJob": "1",
+      "idCompany": "1",
+      "statusRead": true,
+      "fullName": "Tống Thới Duy Hùng",
+      "email": "a@example.com",
+      "city": "Hà Nội",
+      "phone": "0977792593",
+      "description": "a",
+      "linkProject": "a.com",
+      "createAt": "2025-09-09 23:01:42",
+      "id": 3
+    },
+    {
+      "idJob": "4",
+      "idCompany": "3",
+      "statusRead": false,
+      "fullName": "Tống Thới Duy Hùng",
+      "email": "123@gmail.com",
+      "city": "Đà Nẵng",
+      "phone": "0977222342",
+      "description": "a",
+      "linkProject": "a",
+      "createAt": "2025-09-17 22:23:28",
+      "id": 5
+    }
+  ]
+}
